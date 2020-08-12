@@ -1,25 +1,27 @@
 # subgrid_topo
 
 This includes scripts for processing raw DEM data to get the required subgrid information.
+To use these scripts, a lot of GIS libraries are required.
+For more details, you can refer to [how to install GIS](https://automating-gis-processes.github.io/2016/Installing_Anacondas_GIS.html)
 
 # Steps in getting subgrid information
 
-##### Step 1. Download the high-resolution DEM data for the study domain.
+##### Step 1. Download. 
+  High-resolution DEM data are required for get the subgrid information.
   Generally, DEM can be downloaded from 
   <https://www.usgs.gov/core-science-systems/ngp/tnm-delivery/>.
-  The script for downloading DEM data does not include in the directory.
   
 #### Step 2. Calculation.
   Calculate slope and aspect of the study domain from the DEM, and
   then their Trigonometry functions SIN and COS. Then A1, A2,
-  and A3. The script for doing such job is *subgrid_info_calulate.py*.
+  and A3. The script for doing such job is ***subgrid_info_calulate.py***.
 
 #### Step 3. Upscale.
   The high-resolution information has been calculated in the previous step. 
   In this step, we need to calculate mean, variance, and covariance of A1, A2, and A3
   for coarse resolution. This is similar as upscale high-resolution data into
   coarse-resolution.
-  The script for doing this job is *subgrid_info_extract.py* 
+  The script for doing this job is ***subgrid_info_extract.py*** 
   **This step can be very time consume, if there are a lot of grid cells**.
 
 

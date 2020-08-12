@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 """
-This is the step 2 of subgrid pre-processing that was proposed in 
 
 -----------------------------------------------------------------------
 He, S., Smirnova, T. G., & Benjamin, S. G. (2019). A scale-aware
