@@ -2,7 +2,7 @@
 
 This includes scripts for processing raw DEM data to get the required subgrid information.
 To use these scripts, a lot of GIS libraries are required.
-For more details, you can refer to [how to install GIS](https://automating-gis-processes.github.io/2016/Installing_Anacondas_GIS.html)
+For more details, you can refer to [how to install Python + GIS](https://automating-gis-processes.github.io/2016/Installing_Anacondas_GIS.html)
 
 # Steps in getting subgrid information
 
@@ -21,7 +21,8 @@ For more details, you can refer to [how to install GIS](https://automating-gis-p
   In this step, we need to calculate mean, variance, and covariance of A1, A2, and A3
   for coarse resolution. This is similar as upscale high-resolution data into
   coarse-resolution.
-  The script for doing this job is ***subgrid_info_extract.py*** 
+  The script for doing this job is ***subgrid_info_extract.py***. 
+  
   **This step can be very time consume, if there are a lot of grid cells**.
 
 
