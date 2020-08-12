@@ -1,13 +1,13 @@
 # subgrid_topo
 
-This includes scripts for processing raw DEM data to get the required subgrid information.
+This includes scripts for processing high-resolution DEM data to get the required subgrid information.
 To use these scripts, a lot of GIS libraries are required.
 For more details, you can refer to [how to install Python + GIS](https://automating-gis-processes.github.io/2016/Installing_Anacondas_GIS.html)
 
 # Steps in getting subgrid information
 
-##### Step 1. Download. 
-  High-resolution DEM data are required for get the subgrid information.
+#### Step 1. Download. 
+  High-resolution DEM data are required for getting the subgrid information.
   Generally, DEM can be downloaded from 
   <https://www.usgs.gov/core-science-systems/ngp/tnm-delivery/>.
   
@@ -23,7 +23,7 @@ For more details, you can refer to [how to install Python + GIS](https://automat
   coarse-resolution.
   The script for doing this job is ***subgrid_info_extract.py***. 
   
-  **This step can be very time consume, if there are a lot of grid cells**.
+  **Step 3 can be very time consume, if there are a lot of grid cells**.
 
 
 More details on the subgrid information can refer to He et al. (2019). 
