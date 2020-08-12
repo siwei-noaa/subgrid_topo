@@ -24,12 +24,15 @@ This includes scripts for processing raw DEM data to get the required subgrid in
 
 
 More details on the subgrid information can refer to He et al. (2019). 
+
 -----------------------------------------------------------------------
+
 He, S., Smirnova, T. G., & Benjamin, S. G. (2019). A scale-aware 
 parameterization for estimating subgrid variability of downward solar 
 radiation using high-resolution digital elevation model data. Journal 
 of Geophysical Research: Atmospheres, 124, 13680-13692. 
 [https://doi.org/10.1029/2019JD031563](https://doi.org/10.1029/2019JD031563)
+
 -----------------------------------------------------------------------
 
 
