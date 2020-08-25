@@ -14,7 +14,8 @@ For more details, you can refer to [how to install Python + GIS](https://automat
 #### Step 2. Calculation.
   Calculate slope and aspect of the study domain from the DEM, and
   then their Trigonometry functions SIN and COS. Then A1, A2,
-  and A3. The script for doing such job is ***subgrid_info_calulate.py***.
+  and A3. The results are saved in ***output_dir***.
+  The script for doing such job is ***subgrid_info_calulate.py***.
 
 #### Step 3. Upscale.
   The high-resolution information has been calculated in the previous step. 
@@ -22,6 +23,11 @@ For more details, you can refer to [how to install Python + GIS](https://automat
   for coarse resolution. This is similar as upscale high-resolution data into
   coarse-resolution.
   The script for doing this job is ***subgrid_info_extract.py***. 
+
+  In this script, ***input_lat*** and ***input_lon*** are ASCII files that include 
+  latitudes (corner, XLAT_V in HRRR) and longitudes (corner, XLONG_V in HRRR) of all 
+  the grid cells at coarse-resolution.  The final output of this script
+  is a shapefile that inlcudes all the required information for each grid cell.
   
   **Step 3 can be very time consume, if there are a lot of grid cells**.
 
